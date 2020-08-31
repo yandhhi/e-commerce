@@ -1,0 +1,52 @@
+.califica {
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+    font-size: 13px;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.califica input[type = "radio"]{ 
+    display:none;
+}
+
+.califica label:hover, label:hover ~ label {
+    color: black;
+}
+
+.califica input[type = "radio"]:checked ~ label{
+    color: black;
+}
+
+#deseo[type="checkbox"]:checked + label{
+    color: red;
+}
+
+#deseo{
+	visibility: hidden;
+}
+
+.lab-cantidad{
+    padding: 1px 5px;
+    background-color: grey;
+    border-radius: 50%;
+    color: white;
+}
+
+.lab-hipster{ 
+    padding: 2px;
+    background-color: gold;
+    border-radius: 5px;
+    color: black;
+}
+
+.lab-deportiva{
+    padding: 2px;
+    background-color: grey;
+    border-radius: 5px;
+    color: white;
+}
+
+.separar label:hover {
+    color: red;
+}
